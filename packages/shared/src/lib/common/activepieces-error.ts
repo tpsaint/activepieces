@@ -76,7 +76,6 @@ export type ApErrorParams =
     | InvalidCustomDomainErrorParams
     | McpPieceRequiresConnectionParams
     | McpPieceConnectionMismatchParams
-
 export type BaseErrorParams<T, V> = {
     code: T
     params: V
